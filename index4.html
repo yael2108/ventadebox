@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guantes de Boxeo Pro</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #000000, #ff0000);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 50px 20px;
+      animation: slideIn 1s ease-out;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 30px 20px;
+    }
+
+    .producto {
+      background: #ffffff10;
+      border: 2px solid #ff0000;
+      border-radius: 15px;
+      padding: 20px;
+      width: 300px;
+      animation: pulse 2s infinite;
+      box-shadow: 0 0 20px #ff0000;
+    }
+
+    .producto img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .producto h3 {
+      margin: 10px 0;
+      font-size: 1.5em;
+    }
+
+    .producto p {
+      font-size: 1em;
+      margin-bottom: 15px;
+    }
+
+    .whatsapp-btn {
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-size: 1em;
+      text-decoration: none;
+      display: inline-block;
+      transition: transform 0.2s ease;
+    }
+
+    .whatsapp-btn:hover {
+      transform: scale(1.05);
+    }
+
+    .contacto {
+      margin-top: 40px;
+      font-size: 1.1em;
+      padding-bottom: 40px;
+    }
+
+    .contacto span {
+      display: block;
+      margin: 10px 0;
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); box-shadow: 0 0 20px #ff0000; }
+      50% { transform: scale(1.05); box-shadow: 0 0 40px #ff4d4d; }
+      100% { transform: scale(1); box-shadow: 0 0 20px #ff0000; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>¡Luce como un campeón,producto de Anuar yael y Gabriel Sahid!</h1>
+    <p>Guantes de boxeo resistentes, cómodos y con el mejor estilo del mercado.</p>
+  </header>
+
+  <div class="productos">
+    <!-- Producto 1 -->
+    <div class="producto">
+      <img src="guantesrojos.jpg" alt="Guantes Rojos">
+      <h3>Guantes Rojos Pro</h3>
+      <p>Diseño clásico con alto rendimiento. Ideales para sparring y entrenamiento.</p>
+      <a class="whatsapp-btn" href="https://wa.me/522463301572?text=Hola%2C%20quiero%20ordenar%20los%20Guantes%20Rojos%20Pro." target="_blank">Ordenar por WhatsApp</a>
+    </div>
+
+    <!-- Producto 2 -->
+    <div class="producto">
+      <img src="guantes.jpg" alt="Guantes Negros">
+      <h3>Guantes Negros Elite</h3>
+      <p>Estilo elegante y agresivo. Perfectos para combate profesional.</p>
+      <a class="whatsapp-btn" href="https://wa.me/522463301572?text=Hola%2C%20quiero%20ordenar%20los%20Guantes%20Negros%20Elite." target="_blank">Ordenar por WhatsApp</a>
+    </div>
+
+    <!-- Producto 3 -->
+    <div class="producto">
+      <img src="ma.jpg" alt="Guantes Azules">
+      <h3>Guantes Azules Kids</h3>
+      <p>Versión para jóvenes campeones. Ligereza, protección y estilo.</p>
+      <a class="whatsapp-btn" href="https://wa.me/522463301572?text=Hola%2C%20quiero%20ordenar%20los%20Guantes%20Azules%20Kids." target="_blank">Ordenar por WhatsApp</a>
+    </div>
+  </div>
+
+  <div class="contacto">
+    <h3>Contacto directo</h3>
+    <span>Tel: <strong>+52 246 330 1572</strong></span>
+    <span>Email: <strong>anuaryael9@gmail.com</strong></span>
+  </div>
+
+</body>
+</html>
